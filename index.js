@@ -11,10 +11,10 @@ if (randomNumber1 > randomNumber2){
     h_title.innerHTML = "🚩Player 1 ganha!"
 }
 
-if(randomNumber1 < randomNumber2){
+else if(randomNumber2 > randomNumber1){
     h_title.innerHTML = "Player 2 ganha!🚩"
 }
 
-if (randomNumber1 === randomNumber2){
+else{
     h_title.innerHTML = "🚩Empate!🚩"
 }
